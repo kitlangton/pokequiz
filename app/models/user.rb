@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
   has_secure_password
 
   has_one :profile, inverse_of: :user, dependent: :destroy
-  has_many :activities
+  has_many :activities, dependent: :destroy
   has_many :results
 
   has_many :initiated_followings, foreign_key: :follower_id, class_name: 'Following'
