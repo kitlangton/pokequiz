@@ -29,7 +29,7 @@ Rails.application.configure do
   # Rails also needs to know where your app is
   #   located to properly configure sending of emails
   config.action_mailer.default_url_options = {
-      :host => 'morning-reaches-24747.herokuapp.com',
+      :host => 'poke-quiz.herokuapp.com',
   }
 
   Paperclip.options[:command_path] = "/usr/local/bin/convert"
