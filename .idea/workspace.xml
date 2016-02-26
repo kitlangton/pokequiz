@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d47f47b6-0500-4a44-bf6e-463a53b9fc57" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/user_presenter.rb" afterPath="$PROJECT_DIR$/app/presenters/user_presenter.rb" />
     </list>
     <ignored path="pokequiz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7266983">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -133,13 +133,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_presenter.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_presenter.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/presenters/user_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.31595576">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding>
-                <marker date="1456511332000" expanded="true" signature="19:1736" placeholder=" ... end" />
+                <marker date="1456515824000" expanded="true" signature="19:1788" placeholder=" ... end" />
               </folding>
             </state>
           </provider>
@@ -200,13 +200,13 @@
         <option value="$PROJECT_DIR$/spec/presenters/user_presenter_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_sign_out_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/presenters/user_presenter.rb" />
         <option value="$PROJECT_DIR$/app/views/activities/_following.html.erb" />
         <option value="$PROJECT_DIR$/app/views/activities/_result.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/models/following.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/user_presenter.rb" />
       </list>
     </option>
   </component>
@@ -1226,16 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/user_presenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <marker date="1456511332000" expanded="true" signature="19:1736" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/activities/_following.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5384616">
@@ -1304,9 +1294,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7266983">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/user_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31595576">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <marker date="1456515824000" expanded="true" signature="19:1788" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
